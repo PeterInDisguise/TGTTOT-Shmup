@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 216678829}
   - component: {fileID: 216678828}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: spread shot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 241399967}
   - component: {fileID: 241399966}
   m_Layer: 5
-  m_Name: Image
+  m_Name: frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 259717156}
   - component: {fileID: 259717155}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: auto fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 715086672}
   - component: {fileID: 715086671}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Score BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -634,7 +634,7 @@ GameObject:
   - component: {fileID: 1238989995}
   - component: {fileID: 1238989994}
   m_Layer: 5
-  m_Name: Image
+  m_Name: single shot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 1281441945}
   - component: {fileID: 1281441944}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: health bar segment2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 1551838302}
   - component: {fileID: 1551838301}
   m_Layer: 5
-  m_Name: Image
+  m_Name: health bar segment1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1314,7 +1314,7 @@ GameObject:
   - component: {fileID: 1896760256}
   - component: {fileID: 1896760255}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: Health bar end cap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
