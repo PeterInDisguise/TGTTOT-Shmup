@@ -1378,14 +1378,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2593,8 +2593,8 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 8f5139f632e1ad748942558133e4d933, type: 2}
+  m_ReflectionProbeUsage: 0
+  m_MaterialTemplate: {fileID: 2100000, guid: 8ff8b45ff2ba9b344bebb71abf635d0a, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3860,7 +3860,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032599358}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -5434,9 +5434,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 846633441}
     m_Modifications:
+    - target: {fileID: 3026434303109640305, guid: 487eeb5b413265849b79bb6f37467ba5, type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3026434303109640305, guid: 487eeb5b413265849b79bb6f37467ba5, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3531087669751157156, guid: 487eeb5b413265849b79bb6f37467ba5, type: 3}
       propertyPath: m_Name
       value: rock 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3531087669751157156, guid: 487eeb5b413265849b79bb6f37467ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4200487543486532382, guid: 487eeb5b413265849b79bb6f37467ba5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6215,7 +6227,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &1872297090
 Transform:
@@ -6243,7 +6255,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7290,6 +7302,14 @@ PrefabInstance:
     - target: {fileID: 1973205200585040842, guid: ccc1e71a93b81ed41b77d8d74130257a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7246065857148195867, guid: ccc1e71a93b81ed41b77d8d74130257a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191792900257101262, guid: ccc1e71a93b81ed41b77d8d74130257a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
