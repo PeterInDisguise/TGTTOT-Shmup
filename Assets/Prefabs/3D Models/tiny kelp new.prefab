@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2b29c781fcade324e928b2401701fdb5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 79c01c6d87b89d745979d2d7bb944000, type: 2}
+      objectReference: {fileID: 2100000, guid: 69a28e79bb18ad443a199602ea1734f8, type: 2}
     - target: {fileID: 919132149155446097, guid: 2b29c781fcade324e928b2401701fdb5, type: 3}
       propertyPath: m_Name
       value: tiny kelp new
