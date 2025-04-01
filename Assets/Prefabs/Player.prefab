@@ -157,6 +157,7 @@ MonoBehaviour:
   BulletSpawnpoint: {fileID: 3433774677184558243}
   shootTimer: 0
   gunType: 1
+  score: 0
 --- !u!114 &632592223966910429
 MonoBehaviour:
   m_ObjectHideFlags: 0
