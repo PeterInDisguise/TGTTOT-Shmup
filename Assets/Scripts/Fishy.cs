@@ -13,6 +13,7 @@ public class Fishy : MonoBehaviour
     private bool isRapidFiring = false;
 
     [SerializeField] private int score = 0;
+    [SerializeField] private float maxhealth = 2;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -82,6 +83,11 @@ public class Fishy : MonoBehaviour
             }
         }
 
+        //if player health is 0 or below 0, destroy the player object
+        if (maxhealth <= 0)
+        {
+            Destroy(gameObject);
+        }
 
 
     }
@@ -91,6 +97,10 @@ public class Fishy : MonoBehaviour
         if (collision.gameObject.CompareTag("Score"))
         {
             score++;
+        }
+        if (collision.gameObject.CompareTag("Sardeen"))
+        {
+            maxhealth--;
         }
     }
 }
