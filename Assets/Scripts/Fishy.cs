@@ -9,6 +9,12 @@ public class Fishy : MonoBehaviour
 
     private bool canShoot = true;
     [SerializeField] private float shootTimer = 0f;
+    [SerializeField] private int gunType = 0;
+    private bool isRapidFiring = false;
+
+    [SerializeField] private int score = 0;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,13 +43,27 @@ public class Fishy : MonoBehaviour
         }
 
         //make the player shoot using the spacebar (if they can shoot already after the last shot) 
-        if (Input.GetKeyDown(KeyCode.Space) && canShoot == true)
+        if (Input.GetKey(KeyCode.Space) && canShoot == true && gunType == 0)
+        {
+            GameObject Bullet = Instantiate(BulletPrefab, BulletSpawnpoint.position, BulletSpawnpoint.rotation);
+            canShoot = false;
+        }
+        else if (Input.GetKey(KeyCode.Space) && canShoot == true && gunType == 1)
+        {
+            isRapidFiring = true;
+        }
+        else
+        {
+            isRapidFiring = false;
+        }
+
+        if (isRapidFiring == true)
         {
             GameObject Bullet = Instantiate(BulletPrefab, BulletSpawnpoint.position, BulletSpawnpoint.rotation);
             canShoot = false;
         }
 
-        if (canShoot == false)
+        if (canShoot == false && gunType == 0)
         {
             shootTimer = shootTimer + Time.deltaTime;
             if (shootTimer >= 1f)
@@ -52,6 +72,25 @@ public class Fishy : MonoBehaviour
                 canShoot = true;
             }
         }
+        else if (canShoot == false && gunType == 1)
+        {
+            shootTimer = shootTimer + Time.deltaTime;
+            if (shootTimer >= 0.1f)
+            {
+                shootTimer = 0;
+                canShoot = true;
+            }
+        }
 
+
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Score"))
+        {
+            score++;
+        }
     }
 }
