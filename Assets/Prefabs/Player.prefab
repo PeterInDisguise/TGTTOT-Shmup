@@ -156,8 +156,9 @@ MonoBehaviour:
   BulletPrefab: {fileID: 9034112880962506758, guid: f339b1ce27023aa41b83f0ef7e111c1f, type: 3}
   BulletSpawnpoint: {fileID: 3433774677184558243}
   shootTimer: 0
-  gunType: 1
+  gunType: 2
   score: 0
+  maxhealth: 2
 --- !u!114 &632592223966910429
 MonoBehaviour:
   m_ObjectHideFlags: 0

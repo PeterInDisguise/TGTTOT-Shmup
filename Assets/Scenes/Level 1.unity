@@ -9296,7 +9296,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c9e4be635f7b7524698670b995b6e4ed, type: 2}
     - target: {fileID: 3700095276534178685, guid: 72f3ddae33e2a7640b2d65a2d5fdcfb8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15.3
       objectReference: {fileID: 0}
     - target: {fileID: 3700095276534178685, guid: 72f3ddae33e2a7640b2d65a2d5fdcfb8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10316,6 +10316,7 @@ MonoBehaviour:
   shootTimer: 0
   gunType: 0
   score: 0
+  maxhealth: 2
 --- !u!54 &1626507736
 Rigidbody:
   m_ObjectHideFlags: 0
