@@ -14,31 +14,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 64.1
+      value: 83.86036
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 222
+      value: 175.62312
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.33700022
+      value: 0.85561615
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.19772413
+      value: -0.44825628
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.8400892
+      value: 0.12010993
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.37627938
+      value: 0.22926171
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -55.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -46,11 +46,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f392453223108b34a9882d3e5011b455, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 69a28e79bb18ad443a199602ea1734f8, type: 2}
     - target: {fileID: 919132149155446097, guid: f392453223108b34a9882d3e5011b455, type: 3}
       propertyPath: m_Name
-      value: big kelp new
+      value: big kelp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
