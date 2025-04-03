@@ -13,7 +13,6 @@ public class ScoreManager : MonoBehaviour
         UpdateText();
     }
 
-
     public void AddScore(int score)
     {
         currentScore += score;

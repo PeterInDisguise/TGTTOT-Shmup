@@ -25,4 +25,9 @@ public abstract class EnemyBase : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public virtual void Activate()
+    {
+
+    }
 }
