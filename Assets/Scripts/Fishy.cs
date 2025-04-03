@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Fishy : MonoBehaviour
 {
-    [SerializeField] private float speed = 1f;
+    [SerializeField] private float speed = 100f;
     private Rigidbody rb;
     [SerializeField] private GameObject BulletPrefab;
     [SerializeField] private Transform BulletSpawnpoint;
@@ -86,11 +87,32 @@ public class Fishy : MonoBehaviour
         //if player health is 0 or below 0, destroy the player object
         if (maxhealth <= 0)
         {
-            Destroy(gameObject);
+            Debug.Log("you died!");
+            SceneManager.LoadScene("Game Over screen");
         }
-
-
     }
+
+    private void FixedUpdate()
+    {
+        ////make the player move with Input.GetAxisRaw
+        //if (Input.GetAxisRaw("Horizontal") == 1)
+        //{
+        //    rb.AddRelativeForce(Vector3.right * speed);
+        //}
+        //else if (Input.GetAxisRaw("Horizontal") == -1)
+        //{
+        //    rb.AddRelativeForce(Vector3.left * speed);
+        //}
+        //else if (Input.GetAxisRaw("Vertical") == 1)
+        //{
+        //    rb.AddRelativeForce(Vector3.up * speed);
+        //}
+        //else if (Input.GetAxisRaw("Vertical") == -1)
+        //{
+        //    rb.AddRelativeForce(Vector3.down * speed);
+        //}
+    }
+
 
     private void OnCollisionEnter(Collision collision)
     {
