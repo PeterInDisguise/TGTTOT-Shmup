@@ -457,6 +457,10 @@ PrefabInstance:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 363061173}
+    - target: {fileID: 1260642868106906274, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1716745255961968957, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.19
@@ -500,6 +504,10 @@ PrefabInstance:
     - target: {fileID: 3433774677184558243, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124139122507964200, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
+      propertyPath: gunType
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 632592223966910429, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
