@@ -458,7 +458,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: m_Name
       value: smol rock
@@ -866,7 +866,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: m_Name
       value: smol rock (1)
@@ -6206,7 +6206,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: fdcd3b2416012924a92917a6aea45043, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: fdcd3b2416012924a92917a6aea45043, type: 3}
       propertyPath: m_Name
       value: rock 2
@@ -9680,7 +9680,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: fdcd3b2416012924a92917a6aea45043, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: fdcd3b2416012924a92917a6aea45043, type: 3}
       propertyPath: m_Name
       value: rock 2 (1)
@@ -10985,7 +10985,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: m_Name
       value: smol rock (5)
@@ -13200,7 +13200,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: m_Name
       value: smol rock (4)
@@ -16413,7 +16413,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: b2d2ef3dd357b6f408f97201505bf816, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 54e73bdb862d40e4d846d558db153c12, type: 3}
       propertyPath: m_Name
       value: smol rock (3)
