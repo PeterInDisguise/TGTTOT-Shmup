@@ -1,22 +1,26 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Sardeen : enemy
+public class Sardeen : EnemyBase
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private ScoreManager scoreManager;
     void Start()
     {
-        
+        scoreManager = FindFirstObjectByType<ScoreManager>();
+        Debug.Log(scoreManager);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    //use all the stuff that's in the base script 
-    public override void Activate()
+    protected override void OnTriggerEnter(Collider other)
     {
-        base.Activate();
+        if (scoreManager != null & other.gameObject.CompareTag("Bullet"))
+        {
+            scoreManager.AddScore(scoreToAdd);
+        }
+        base.OnTriggerEnter(other);
     }
 }
