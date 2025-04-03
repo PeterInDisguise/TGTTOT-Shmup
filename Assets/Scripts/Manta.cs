@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Manta : enemy
+public class Manta : EnemyBase
 {
     private Fishy fish; //this line is not necessary, but I liked it so much that it can stay <3
     private Rigidbody rb;
@@ -30,6 +30,6 @@ public class Manta : enemy
 
     public override void Activate()
     {
-        base.Activate();
+        
     }
 }
