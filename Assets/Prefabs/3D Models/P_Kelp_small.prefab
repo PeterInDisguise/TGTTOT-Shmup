@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 69a28e79bb18ad443a199602ea1734f8, type: 2}
+    - target: {fileID: -7157950211839587755, guid: 2b29c781fcade324e928b2401701fdb5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 2b29c781fcade324e928b2401701fdb5, type: 3}
       propertyPath: m_Name
       value: P_Kelp_small
