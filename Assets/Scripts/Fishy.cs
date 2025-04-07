@@ -120,7 +120,7 @@ public class Fishy : MonoBehaviour
         {
             score++;
         }
-        if (collision.gameObject.CompareTag("Sardeen"))
+        if (collision.gameObject.CompareTag("Hazard"))
         {
             maxhealth--;
         }
