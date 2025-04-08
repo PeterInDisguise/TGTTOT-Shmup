@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //if object comes into contact with a trigger, check how the object is tagged to determine the outcome
-        if (other.gameObject.CompareTag("Sardeen"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
         }

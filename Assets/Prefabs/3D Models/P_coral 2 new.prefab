@@ -48,10 +48,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7743529686469771568, guid: 9d33096c2770e3a49adf46bb39831907, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 06f5142032fe20d48b9b2ef63e929dbf, type: 2}
+    - target: {fileID: 338729951520984947, guid: 9d33096c2770e3a49adf46bb39831907, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 06f5142032fe20d48b9b2ef63e929dbf, type: 2}
+    - target: {fileID: 442721904602512661, guid: 9d33096c2770e3a49adf46bb39831907, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fc5c876517d92484d8dd1d0a3476590e, type: 2}
     - target: {fileID: 919132149155446097, guid: 9d33096c2770e3a49adf46bb39831907, type: 3}
       propertyPath: m_Name
-      value: coral 2 new (1)
+      value: P_coral 2 new
       objectReference: {fileID: 0}
+    - target: {fileID: 6472295871873889105, guid: 9d33096c2770e3a49adf46bb39831907, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a5997c452d508e4b81b5bb6d8ad35a4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

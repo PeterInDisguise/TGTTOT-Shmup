@@ -21,7 +21,6 @@ public abstract class EnemyBase : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-
             Destroy(gameObject);
         }
     }
