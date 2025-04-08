@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: f392453223108b34a9882d3e5011b455
+guid: 57c308db2df56664f96742e8a8818b5e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eel
+    second: {fileID: 2100000, guid: 06f5142032fe20d48b9b2ef63e929dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 06f5142032fe20d48b9b2ef63e929dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 06f5142032fe20d48b9b2ef63e929dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: 06f5142032fe20d48b9b2ef63e929dbf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -15,7 +35,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
-    motionNodeName: <Root Transform>
+    motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -31,11 +51,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature.002|Wave in current (1)
-      takeName: Armature.002|Wave in current
-      internalID: 5138602965388526686
+      name: fucked up swin animation
+      takeName: fucked up swin animation
+      internalID: 8435028064688924456
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -60,11 +80,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|Armature.002Action.001
-      takeName: Armature.002|Armature.002Action.001
-      internalID: 4028146881832135640
+      name: Idle animation
+      takeName: Idle animation
+      internalID: 1743418266474396185
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -72,7 +92,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -89,11 +109,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|Armature.002Action.002
-      takeName: Armature.002|Armature.002Action.002
-      internalID: -2160657748010038229
+      name: bite
+      takeName: bite
+      internalID: 5593195891246529448
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 58
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -118,40 +138,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature.002|Armature.002Action.003
-      takeName: Armature.002|Armature.002Action.003
-      internalID: 8996564317178409144
+      name: Fish spit
+      takeName: Fish spit
+      internalID: 4714662832367452656
       firstFrame: 0
-      lastFrame: 0
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature.002|Wave in current
-      takeName: Armature.002|Wave in current
-      internalID: 6505864578187318018
-      firstFrame: 0
-      lastFrame: 90
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -242,7 +233,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
