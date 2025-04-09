@@ -122,6 +122,7 @@ public class Fishy : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Hazard"))
         {
+            Debug.Log("hit!");
             maxhealth--;
         }
     }

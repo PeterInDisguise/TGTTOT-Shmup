@@ -26,8 +26,9 @@ public class PufferFish : MonoBehaviour
         spikeTimer = spikeTimer + Time.deltaTime;
         if (spikeTimer >= 5f)
         {
-            Spikymcspikeface();
             spikeTimer = 0f;
+            Spikymcspikeface();
+           
         }
     }
 
@@ -41,4 +42,14 @@ public class PufferFish : MonoBehaviour
         Instantiate(spikePrefab, spikePoint5.position, spikePoint5.rotation);
         Instantiate(spikePrefab, spikePoint6.position, spikePoint6.rotation);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }
+

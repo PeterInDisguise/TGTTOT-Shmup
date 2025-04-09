@@ -22,15 +22,15 @@ public class PlayerBounds : MonoBehaviour
         Vector3 topRight = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Mathf.Abs(mainCamera.transform.position.z)));
 
         // Debugging: Check the player's position and the boundaries
-        Debug.Log($"Player Position: {playerPos}");
-        Debug.Log($"Bounds: Bottom Left={bottomLeft}, Top Right={topRight}");
+        //Debug.Log($"Player Position: {playerPos}");
+        //Debug.Log($"Bounds: Bottom Left={bottomLeft}, Top Right={topRight}");
 
         // Clamp the player's position to be within the boundaries
         playerPos.x = Mathf.Clamp(playerPos.x, bottomLeft.x, topRight.x);
         playerPos.y = Mathf.Clamp(playerPos.y, bottomLeft.y, topRight.y);
 
         // Debugging: Check clamped position
-        Debug.Log($"Clamped Player Position: {playerPos}");
+        //Debug.Log($"Clamped Player Position: {playerPos}");
 
         // Apply the clamped position back to the player's transform
         transform.position = playerPos;
