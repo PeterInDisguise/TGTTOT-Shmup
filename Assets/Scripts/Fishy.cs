@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using: UnityEngine.UI;
+using UnityEngine.UI;
 
 public class Fishy : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class Fishy : MonoBehaviour
 
     [SerializeField] private int score = 0;
     [SerializeField] private float maxhealth = 3;
-    [SerializeField] private float health;
+    [SerializeField] private float health = 3;
     [SerializeField] private Slider slider;
 
 
