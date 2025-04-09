@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8627917924603172154
+--- !u!114 &-8226538709401261594
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Manta material 1
+  m_Name: test cel shading 3
   m_Shader: {fileID: -6465566751694194690, guid: f5c17c54b686a24498a2ead308bc9874, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -61,6 +61,6 @@ Material:
     - _QueueOffset: 0
     - _Shaders: 0.49
     m_Colors:
-    - _Color: {r: 0.65471697, g: 0.9619994, b: 1, a: 0}
+    - _Color: {r: 0.44641498, g: 0.6073389, b: 0.6377357, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

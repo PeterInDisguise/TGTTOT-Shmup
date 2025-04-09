@@ -14,28 +14,20 @@ public class PlayerBounds : MonoBehaviour
 
     void Update()
     {
-        // Get the camera's field of view and the aspect ratio
-        // Frustum boundaries calculation based on perspective camera's FOV
-        float frustumHeight = 2f * Mathf.Tan(mainCamera.fieldOfView * 0.5f * Mathf.Deg2Rad) * Mathf.Abs(mainCamera.transform.position.z);
-        float frustumWidth = frustumHeight * mainCamera.aspect;
-
         // Get the player's current position
         Vector3 playerPos = transform.position;
 
-        // Define the boundaries of the screen (camera's visible area) in world space
-        // Use the camera's position to calculate the world-space boundaries
-        float leftBoundary = mainCamera.transform.position.x - frustumWidth / 2;
-        float rightBoundary = mainCamera.transform.position.x + frustumWidth / 2;
-        float bottomBoundary = mainCamera.transform.position.y - frustumHeight / 2;
-        float topBoundary = mainCamera.transform.position.y + frustumHeight / 2;
+        // Convert the screen-space positions of the camera's boundaries into world space
+        Vector3 bottomLeft = mainCamera.ScreenToWorldPoint(new Vector3(0, 0, Mathf.Abs(mainCamera.transform.position.z)));
+        Vector3 topRight = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Mathf.Abs(mainCamera.transform.position.z)));
 
-        // Debugging: Check the boundaries and player's position
+        // Debugging: Check the player's position and the boundaries
         Debug.Log($"Player Position: {playerPos}");
-        Debug.Log($"Bounds: Left={leftBoundary}, Right={rightBoundary}, Bottom={bottomBoundary}, Top={topBoundary}");
+        Debug.Log($"Bounds: Bottom Left={bottomLeft}, Top Right={topRight}");
 
-        // Clamp the player's position on the X and Z axes
-        playerPos.x = Mathf.Clamp(playerPos.x, leftBoundary, rightBoundary);
-        playerPos.y = Mathf.Clamp(playerPos.y, bottomBoundary, topBoundary);
+        // Clamp the player's position to be within the boundaries
+        playerPos.x = Mathf.Clamp(playerPos.x, bottomLeft.x, topRight.x);
+        playerPos.y = Mathf.Clamp(playerPos.y, bottomLeft.y, topRight.y);
 
         // Debugging: Check clamped position
         Debug.Log($"Clamped Player Position: {playerPos}");
