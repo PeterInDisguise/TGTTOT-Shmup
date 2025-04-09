@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using: UnityEngine.UI;
 
 public class Fishy : MonoBehaviour
 {
@@ -14,13 +15,17 @@ public class Fishy : MonoBehaviour
     private bool isRapidFiring = false;
 
     [SerializeField] private int score = 0;
-    [SerializeField] private float maxhealth = 2;
+    [SerializeField] private float maxhealth = 3;
+    [SerializeField] private float health;
+    [SerializeField] private Slider slider;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        health = maxhealth;
+        slider.value = health;
     }
 
     // Update is called once per frame
@@ -85,7 +90,7 @@ public class Fishy : MonoBehaviour
         }
 
         //if player health is 0 or below 0, destroy the player object
-        if (maxhealth <= 0)
+        if (health <= 0)
         {
             Debug.Log("you died!");
             SceneManager.LoadScene("Game Over screen");
@@ -122,7 +127,7 @@ public class Fishy : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Hazard"))
         {
-            maxhealth--;
+            health--;
         }
     }
 }
