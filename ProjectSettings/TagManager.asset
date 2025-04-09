@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Bullet
-  - Sardeen
   - Score
+  - Hazard
+  - Enemy
   layers:
   - Default
   - TransparentFX
