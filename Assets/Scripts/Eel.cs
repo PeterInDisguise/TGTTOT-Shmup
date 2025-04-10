@@ -17,7 +17,7 @@ public class Eel : MonoBehaviour
     [SerializeField] private GameObject PufferFish;
 
     [SerializeField] private int wave = 0;
-    private bool canSpawn = true;
+    [SerializeField] private bool canSpawn = true;
     //health of the eel 
     [SerializeField] private float eelHealth = 80f;
 
@@ -49,6 +49,7 @@ public class Eel : MonoBehaviour
         else if (eelHealth == 45)
         {
             wave = 2;
+            Spawn();
         }
         else if (eelHealth == 44)
         {
@@ -57,6 +58,7 @@ public class Eel : MonoBehaviour
         else if (eelHealth == 20)
         {
             wave = 3;
+            Spawn();
         }
     }
 

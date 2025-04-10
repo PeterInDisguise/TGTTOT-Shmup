@@ -125,7 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPosition: {fileID: 0}
-  electricball: {fileID: 0}
+  shootTimer: 0
+  electricball: {fileID: 8499627720071560053, guid: 335c74cb47bfdf44eaadf1e81ad9be20, type: 3}
   electricPoint: {fileID: 8846598333686014206}
   mantaSpeed: 0
 --- !u!54 &2121567702919184655
@@ -179,13 +180,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6999870276317441161}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.54, y: -0.06, z: 0.06}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.4, y: -0.06, z: 5.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5869236409121069390}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1780022359418309749
 PrefabInstance:
   m_ObjectHideFlags: 0

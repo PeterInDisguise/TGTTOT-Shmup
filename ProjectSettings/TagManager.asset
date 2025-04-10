@@ -9,6 +9,7 @@ TagManager:
   - Score
   - Hazard
   - Enemy
+  - Final Boss
   layers:
   - Default
   - TransparentFX
