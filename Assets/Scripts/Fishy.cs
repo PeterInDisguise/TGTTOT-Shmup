@@ -25,29 +25,13 @@ public class Fishy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         health = maxhealth;
-        slider.value = health;
+        //slider.value = health;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //make the player move with Input.GetAxisRaw
-        if (Input.GetAxisRaw("Horizontal") == 1)
-        {
-            rb.AddRelativeForce(Vector3.right * speed);
-        }
-        else if (Input.GetAxisRaw("Horizontal") == -1)
-        {
-            rb.AddRelativeForce(Vector3.left * speed);
-        }
-        else if (Input.GetAxisRaw("Vertical") == 1)
-        {
-            rb.AddRelativeForce(Vector3.up * speed);
-        }
-        else if (Input.GetAxisRaw("Vertical") == -1)
-        {
-            rb.AddRelativeForce(Vector3.down * speed);
-        }
+       
 
         //make the player shoot using the spacebar (if they can shoot already after the last shot) 
         if (Input.GetKey(KeyCode.Space) && canShoot == true && gunType == 0)
@@ -99,23 +83,23 @@ public class Fishy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        ////make the player move with Input.GetAxisRaw
-        //if (Input.GetAxisRaw("Horizontal") == 1)
-        //{
-        //    rb.AddRelativeForce(Vector3.right * speed);
-        //}
-        //else if (Input.GetAxisRaw("Horizontal") == -1)
-        //{
-        //    rb.AddRelativeForce(Vector3.left * speed);
-        //}
-        //else if (Input.GetAxisRaw("Vertical") == 1)
-        //{
-        //    rb.AddRelativeForce(Vector3.up * speed);
-        //}
-        //else if (Input.GetAxisRaw("Vertical") == -1)
-        //{
-        //    rb.AddRelativeForce(Vector3.down * speed);
-        //}
+        //make the player move with Input.GetAxisRaw
+        if (Input.GetAxisRaw("Horizontal") == 1)
+        {
+            rb.AddRelativeForce(Vector3.right * speed);
+        }
+        else if (Input.GetAxisRaw("Horizontal") == -1)
+        {
+            rb.AddRelativeForce(Vector3.left * speed);
+        }
+        else if (Input.GetAxisRaw("Vertical") == 1)
+        {
+            rb.AddRelativeForce(Vector3.up * speed);
+        }
+        else if (Input.GetAxisRaw("Vertical") == -1)
+        {
+            rb.AddRelativeForce(Vector3.down * speed);
+        }
     }
 
 

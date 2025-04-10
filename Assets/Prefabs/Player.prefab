@@ -160,6 +160,8 @@ MonoBehaviour:
   gunType: 0
   score: 0
   maxhealth: 2
+  health: 3
+  slider: {fileID: 0}
 --- !u!114 &8972798297345266320
 MonoBehaviour:
   m_ObjectHideFlags: 0

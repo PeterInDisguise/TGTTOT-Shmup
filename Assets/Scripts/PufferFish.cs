@@ -4,7 +4,7 @@ public class PufferFish : MonoBehaviour
 {
     [SerializeField] private float spikeTimer = 0f;
 
-    //make some absolutely shit code involving 7 different spawnpoints (lesser men will see their computer start smoking)
+    //make some absolutely shit code involving 7 different spawnpoints (lesser mortal men will see their computer start smoking)
     [SerializeField] private Transform spikePoint;
     [SerializeField] private Transform spikePoint1;
     [SerializeField] private Transform spikePoint2;
@@ -33,6 +33,7 @@ public class PufferFish : MonoBehaviour
 
     private void Spikymcspikeface()
     {
+        //remember to collapse this shit so no one can see your shame!
         Instantiate(spikePrefab, spikePoint.position, spikePoint.rotation);
         Instantiate(spikePrefab, spikePoint1.position, spikePoint1.rotation);
         Instantiate(spikePrefab, spikePoint2.position, spikePoint2.rotation);
