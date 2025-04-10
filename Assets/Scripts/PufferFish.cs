@@ -42,4 +42,12 @@ public class PufferFish : MonoBehaviour
         Instantiate(spikePrefab, spikePoint5.position, spikePoint5.rotation);
         Instantiate(spikePrefab, spikePoint6.position, spikePoint6.rotation);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }

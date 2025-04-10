@@ -16,6 +16,10 @@ public class PufferSpike : MonoBehaviour
     void Update()
     {
         spikeDestroyTimer = spikeDestroyTimer + Time.deltaTime;
+        if (spikeDestroyTimer >= 4)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
