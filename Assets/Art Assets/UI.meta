@@ -1,5 +1,13 @@
 fileFormatVersion: 2
-guid: 7fcae63ab50fca44fb37edf1143abb3f
+<<<<<<<< HEAD:Assets/Art Assets/sounds.meta
+<<<<<<< HEAD
+guid: 9a934262984e8bc438833968cf33ff4e
+=======
+guid: 6c3ca194613b35d4faf1517d5e4010d2
+>>>>>>> f75141df8111c4938ba7bf928d69275ca917bad7
+========
+guid: 998704c54a600a34ab0d12893bc68a5f
+>>>>>>>> ed8e54f84c0fa76cf0293d401346618efa1a1eb7:Assets/Art Assets/UI.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
