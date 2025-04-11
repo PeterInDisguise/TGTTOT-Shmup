@@ -65526,7 +65526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd62a59efc6b3444b9590b42ae67173e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSpeed: 10000
+  cameraSpeed: 650
 --- !u!4 &1451157303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1973205200585040842, guid: 9990418af8e562840b3a36ba16132307, type: 3}
@@ -66880,7 +66880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4124139122507964200, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
       propertyPath: speed
-      value: 10000
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 4124139122507964200, guid: 2d20c3f3bcdef194fbcd731ce7103b8a, type: 3}
       propertyPath: gunType
